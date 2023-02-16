@@ -6,6 +6,9 @@ import logo from './logo.svg'
 const Navbar = () => {
 
  return (
+  <>
+  <h2>nav goes here</h2>
+  </>
     )
 }
 export default Navbar
