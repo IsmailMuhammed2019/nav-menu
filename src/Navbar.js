@@ -5,6 +5,10 @@ import logo from './logo.svg'
 
 const Navbar = () => {
  const [showLinks, setShowLinks] = useState(false)
+ const linksRef = useRef(null)
+ const linsContainerRef = useRef(null)
+
+ 
  return (
   <>
   <nav>
