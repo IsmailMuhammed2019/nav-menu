@@ -8,7 +8,9 @@ const Navbar = () => {
  const linksRef = useRef(null)
  const linsContainerRef = useRef(null)
 
- 
+ useEffect(() => {
+
+ },[showLinks])
  return (
   <>
   <nav>
