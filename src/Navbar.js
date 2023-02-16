@@ -6,9 +6,10 @@ import logo from './logo.svg'
 const Navbar = () => {
  const [showLinks, setShowLinks] = useState(false)
  const linksRef = useRef(null)
- const linsContainerRef = useRef(null)
+ const linksContainerRef = useRef(null)
 
  useEffect(() => {
+  const linksHeight = linksRef.current.getBoundingClientRec().linksHeight
 
  },[showLinks])
  return (
