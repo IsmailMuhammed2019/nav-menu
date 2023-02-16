@@ -7,7 +7,16 @@ const Navbar = () => {
 
  return (
   <>
-  <h2>nav goes here</h2>
+  <nav>
+   <div className="nav-center">
+    <div className="nav-header">
+     <img src={logo} alt="logo" />
+     <button className="nav-toggele">
+      <FaBars />
+     </button>
+    </div>
+   </div>
+  </nav>
   </>
     )
 }
